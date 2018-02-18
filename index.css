@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+div {
+  border: 1px solid blue;
+}
+
+.intro {
+  width: 30%;
+  position: fixed;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.gallery {
+  width: 70%;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
