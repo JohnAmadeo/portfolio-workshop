@@ -1,22 +1,69 @@
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  margin: 8px;
 }
 
 div {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .intro {
-  width: 30%;
+  width: 40%;
   position: fixed;
   display: inline-block;
   box-sizing: border-box;
 }
 
 .gallery {
-  width: 70%;
+  width: 60%;
   position: absolute;
   right: 0;
   display: inline-block;
   box-sizing: border-box;
+}
+
+.gallery-item {
+  color: #FFFFFF;
+  padding: 40px;
+}
+
+.gallery-item .title, .gallery-item .number {
+  font-weight: 300;
+}
+
+.gallery-item .description {
+  font-size: 13px;
+}
+
+.gallery-item img {
+  display: block;
+  margin: 24px auto;
+}
+
+.ydn {
+  background: #1A9FE0;
+}
+
+.ydn img {
+  width: 80%;
+}
+
+.snackpass {
+  background: #E9BBD8;
+}
+
+.snackpass img {
+  width: 25%;
+}
+
+.lily {
+  background: #B5DDC0;
+}
+
+.lily img {
+  width: 70%;
 }
